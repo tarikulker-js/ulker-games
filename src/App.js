@@ -3,7 +3,11 @@ import './App.css';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import HomeScreen from './screens/home';
+
+import BigMeetingScreen from './screens/big_meeting';
+import QatarTubeScreen from './screens/qatartube';
 import UlkergameScreen from './screens/ulkergame';
+
 import ulkerGamesLogo from './ulker-games-logo.jpg';
 
 
@@ -21,6 +25,16 @@ function App() {
 
       <Router>
         <Switch>
+
+          <Route path="/com.ulker.bigmeeting">
+            <BigMeetingScreen />
+
+          </Route>
+
+          <Route path="/com.ulker.qatartube">
+            <QatarTubeScreen />
+
+          </Route>
 
           <Route path="/com.ulker.zipzipulker">
             <UlkergameScreen />

@@ -1,4 +1,4 @@
-import ApkFile from '../ZipZipUlkerGame_v1.5.apk';
+import ApkFile from '../Apps/ZipZipUlkerGame_v1.5.apk';
 
 export default function ZipZipUlkerGameScreen() {
     return (
