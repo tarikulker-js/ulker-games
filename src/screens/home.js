@@ -24,7 +24,7 @@ export default function HomeScreen() {
                             <p>Ulker Software tarafından bir sosyalleşebileceğiniz sosyal medya uygulama platformu. Şimdilik sadece Android'de!</p>
                         </div>
                         <div class="card-action">
-                            <a href={ApkFile} download>İndir</a>
+                            <a href="/com.ulker.qatartube">Uygulamaya Git</a>
                         </div>
                     </div>
                 </div>
