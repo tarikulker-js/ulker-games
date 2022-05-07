@@ -7,6 +7,8 @@ import HomeScreen from './screens/home';
 import BigMeetingScreen from './screens/big_meeting';
 import QatarTubeScreen from './screens/qatartube';
 import UlkergameScreen from './screens/ulkergame';
+import UlkerSocialScreen from './screens(ulker_social';
+
 
 import ulkerGamesLogo from './ulker-games-logo.jpg';
 
@@ -28,6 +30,11 @@ function App() {
 
           <Route path="/com.ulker.bigmeeting">
             <BigMeetingScreen />
+
+          </Route>
+
+          <Route path="/com.ulker.ulkersocial">
+            <UlkerSocialScreen />
 
           </Route>
 
