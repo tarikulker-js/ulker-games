@@ -11,7 +11,7 @@ export default function BigMeetingScreen() {
                             <p>Ulker Software tarafından bir sosyalleşebileceğiniz sosyal medya uygulama platformu. Şimdilik sadece Android'de!</p>
                         </div>
                         <div class="card-action">
-                            <a href={ApkFile} download>İndir</a>
+                            <a href="https://expo.dev/artifacts/070bbc02-3123-4ceb-85a2-33c603e84d1b" >İndir</a>
                         </div>
                     </div>
                 </div>
